@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="syn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="50%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#021a14" />
+    </linearGradient>
+    <linearGradient id="emerald-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#syn-bg)" />
+  <!-- Vector Topology Visualizer -->
+  <g opacity="0.2" stroke="#10b981" stroke-width="0.8">
+    <circle cx="400" cy="225" r="180" fill="none" />
+    <circle cx="400" cy="225" r="120" fill="none" />
+    <circle cx="400" cy="225" r="60" fill="none" />
+    <line x1="400" y1="20" x2="400" y2="430" />
+    <line x1="200" y1="225" x2="600" y2="225" />
+  </g>
+  <!-- Cluster Nodes and Edges -->
+  <g stroke="#34d399" stroke-width="1.5" stroke-opacity="0.6">
+    <line x1="240" y1="160" x2="320" y2="120" />
+    <line x1="320" y1="120" x2="400" y2="170" />
+    <line x1="400" y1="170" x2="480" y2="130" />
+    <line x1="480" y1="130" x2="560" y2="190" />
+    <line x1="240" y1="160" x2="280" y2="280" />
+    <line x1="280" y1="280" x2="380" y2="290" />
+    <line x1="380" y1="290" x2="500" y2="260" />
+    <line x1="500" y1="260" x2="560" y2="190" />
+    <line x1="400" y1="170" x2="380" y2="290" />
+  </g>
+  <!-- Point Clusters -->
+  <circle cx="240" cy="160" r="7" fill="#6ee7b7" />
+  <circle cx="320" cy="120" r="9" fill="#10b981" />
+  <circle cx="400" cy="170" r="14" fill="#a7f3d0" />
+  <circle cx="480" cy="130" r="8" fill="#34d399" />
+  <circle cx="560" cy="190" r="11" fill="#6ee7b7" />
+  <circle cx="280" cy="280" r="9" fill="#10b981" />
+  <circle cx="380" cy="290" r="10" fill="#34d399" />
+  <circle cx="500" cy="260" r="8" fill="#a7f3d0" />
+
+  <!-- Info Overlay Card -->
+  <rect x="80" y="320" width="640" height="90" rx="12" fill="#064e3b" fill-opacity="0.8" stroke="#34d399" stroke-width="1.5" />
+  <text x="110" y="355" fill="#6ee7b7" font-family="monospace" font-size="14" font-weight="bold">SYNAPSE VECTOR HNSW CORE</text>
+  <text x="110" y="380" fill="#e2e8f0" font-family="sans-serif" font-size="12">1536-dim embeddings | Zero-copy mmap | Query P99: 1.8ms</text>
+  <rect x="580" y="340" width="110" height="30" rx="8" fill="#047857" />
+  <text x="595" y="360" fill="#a7f3d0" font-family="monospace" font-size="11" font-weight="bold">10M+ VECTORS</text>
+</svg>
